@@ -15,4 +15,12 @@ object WelcomeStyles : StyleSheet("WelcomeStyles", isStatic = true) {
         borderWidth = 1.px
         fontSize = 14.px
     }
+
+    val numberInput by css {
+        margin(vertical = 5.px)
+        fontFamily = "Georgia"
+        fontWeight = FontWeight.bold
+        borderWidth = 1.px
+        fontSize = 14.px
+    }
 }

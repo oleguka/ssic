@@ -42,6 +42,14 @@ class Welcome(props: WelcomeProps) : RComponent<WelcomeProps, WelcomeState>(prop
                 }
             }
         }
+        styledInput {
+            css {
+                +WelcomeStyles.numberInput
+            }
+            attrs {
+                type = InputType.date
+            }
+        }
         div {
             img(src = "https://placekitten.com/408/287") {}
         }
